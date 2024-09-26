@@ -7,5 +7,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // require('preline/plugin'),
+    require('daisyui'),
+    require("@tailwindcss/typography")
+  ],
 }

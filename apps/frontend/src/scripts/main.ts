@@ -1,5 +1,5 @@
 import Alpine from 'alpinejs';
-
+import 'preline';
 import '../styles/styles.css';
 
 declare global {
