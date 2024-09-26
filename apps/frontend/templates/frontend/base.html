@@ -1,0 +1,23 @@
+{% comment %} 
+This is a base component for importing main css and js.
+we will use it to make other templates.
+{% endcomment %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%block metatags%}
+    {% comment %} meta tags {% endcomment %}
+    {% endblock %}
+    <title>{% block title %}My Blog{% endblock %}</title>
+    <link href="{% static 'frontend/assets/main-ffA2A3f8.css' %}" rel="stylesheet">
+</head>
+<body>
+        {% block content %}
+        <!-- Child templates will override this block -->
+        {% endblock %}
+    <script type="module" src="{% static 'frontend/assets/main-DFjZ7_Q1.js' %}"></script>
+</body>
+</html>

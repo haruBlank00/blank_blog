@@ -1,0 +1,141 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# If you are using Django Compressor
+compressed/
+
+# If you are using Django Debug Toolbar
+debug_toolbar/
+
+# If you are using Django Extensions
+*.coverage
+.coverage.*
+
+# If you are using MySQL
+*.pid
+
+# If you are using PostgreSQL
+*.pgpass
+
+# If you are using SQLite
+*.db
+
+# If you are using Vagrant
+.vagrant/
+
+# If you are using Docker
+*.env
+docker-compose*.yml
+Dockerfile
+.dockerignore
+
+# If you are using PyCharm
+.idea/
+
+# If you are using VS Code
+.vscode/
+
+# If you are using Jupyter Notebook
+.ipynb_checkpoints
+
+# If you are using macOS
+.DS_Store
+
+# If you are using Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# If you are using JetBrains IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# If you are using Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# If you are using coverage.py
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# If you are using pytest
+.pytest_cache/
+__pycache__/
+
+# If you are using pipenv
+Pipfile.lock
+
+# If you are using virtualenv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# If you are using npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# If you are using Sphinx documentation
+docs/_build/
+
+# If you are using pyenv
+.python-version
+
+# If you are using celery
+celerybeat-schedule
+
+# If you are using translations
+*.mo
+
+# If you are using local settings
+local_settings.py
+
+# If you are using env variables
+.env
+*.env
+
