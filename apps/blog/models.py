@@ -18,11 +18,11 @@ class BlogPost(models.Model):
 
     # Category of the post
     # EG: Programming, Lifestyle
-    category = models.ForeignKey('apps.category.CategoryModel', on_delete=models.CASCADE)
+    category = models.ForeignKey('category.CategoryModel', on_delete=models.CASCADE)
 
     # Tags of the post
     # EG: Python, Django
-    tags = models.ManyToManyField('apps.tag.TagModel', blank=True)
+    tags = models.ManyToManyField('tag.TagModel', blank=True)
 
     def __str__(self):
         return self.title
