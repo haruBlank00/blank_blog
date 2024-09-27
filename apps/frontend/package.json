@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tw-watch": "tailwindcss -i ./src/styles/styles.css -o ./static/frontend/assets/style.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "alpinejs": "^3.14.1",
+    "daisyui": "^4.12.10",
     "preline": "^2.5.0"
   }
 }
