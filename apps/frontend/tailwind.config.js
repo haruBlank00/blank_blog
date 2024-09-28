@@ -8,7 +8,6 @@ export default {
     extend: {},
   },
   plugins: [
-    // require('preline/plugin'),
     require('daisyui'),
     require("@tailwindcss/typography")
   ],
