@@ -1,9 +1,8 @@
 {% extends "frontend/base.html" %}
 
-{% block content %}
+{%block content%}
 <div class="max-w-5xl mx-auto">
 {% include "frontend/components/navbar/index.html" %}
-
-
+{{ blog_post.title }}
 </div>
 {% endblock %}
