@@ -1,0 +1,25 @@
+{% comment %} 
+Navbar item component
+- Todo Mark active tab
+{% endcomment %}
+{% comment %} <style>
+.navitem-effect {
+  @apply text-primary content-[''] absolute after:left-0 after:right-0 after:bottom-0 after:h-1 after:bg-primary
+}
+
+.navitem-hover:hover {
+  @apply navitem-effect
+}
+
+.navitem-active {
+  @apply navitem-effect
+}
+</style> {% endcomment %}
+<li>
+    <a
+      href="{{ href }}"
+      class="relative hover:text-primary hover:after:content-[''] hover:after:absolute hover:after:left-0 hover:after:right-0 hover:after:bottom-0 hover:after:h-1 hover:after:bg-primary focus:text-primary focus:after:bg-primary"
+    >
+      {{ label }}
+    </a>
+  </li>
