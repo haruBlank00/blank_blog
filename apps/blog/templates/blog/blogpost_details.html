@@ -1,8 +1,15 @@
 {% extends "frontend/base.html" %}
+{% load markdown_extras %}
 
 {%block content%}
 <div class="max-w-5xl mx-auto">
 {% include "frontend/components/navbar/navbar.html" %}
-{{ blog_post.title }}
+	<main class="prose">
+		<h1>
+			{{ blog_post.title }}
+		</h1>
+
+		{{ blog_post.content | markdownify }}
+	</main>
 </div>
 {% endblock %}

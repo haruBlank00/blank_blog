@@ -1,4 +1,5 @@
 from django.db import models
+from markdownx.models import MarkdownxField
 
 # Create your models here.
 class BlogPost(models.Model):
@@ -8,7 +9,8 @@ class BlogPost(models.Model):
 
     # MD Format content
     # EG: # My First Blog
-    content = models.TextField()
+    # content = models.TextField()
+    content = MarkdownxField() 
     
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -25,6 +27,6 @@ class BlogPost(models.Model):
     tags = models.ManyToManyField('tag.TagModel', blank=True)
 
     def __str__(self):
-        return self.title
+        return str(self.title) 
 
     

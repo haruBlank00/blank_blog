@@ -7,6 +7,7 @@ authors = ["haruBlank <harublank00@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^5.1.1"
+django-markdownx = "^4.0.7"
 
 [tool.poetry.dev-dependencies]
 

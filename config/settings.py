@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'apps.blog',
     'apps.category',
     'apps.tag',
+    'markdownx'
 
 ]
 
